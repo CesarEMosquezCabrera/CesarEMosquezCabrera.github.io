@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/StyleHeader.css">
+    <link rel="stylesheet" href="Style/StyleMaterias.css">
+    <title>Materias</title>
+</head>
+<body style="margin: 0; padding: 0;">
+    <header>
+        <h2><a href="index.html">Universidad AJMS</a></h2>
+        <nav>
+            <a href="index.html"><div>Inicio</div></a>
+            <a href="Materias.html"><div>Materias</div></a>
+            <a href="Ingreso.html"><div>Ingreso</div></a>
+            <a href="Contacto.html"><div>Requisitos y Contacto</div></a>
+            <a href="becas.html"><div>Becas</div></a>
+        </nav>
+    </header>
+    <div class="tituloMaterias">
+        <h2>Materias en la Carrera de Informatica</h2>
+    </div>
+    <div class="botonesMaterias">
+        <button onclick="troncal()"><div class="troncales">Troncales</div></button>
+        <div class="divButton"><div class="requisitos">Requisitos</div></div>
+        <button onclick="Notroncal()"><div class="noTroncales">No Troncales</div></button>
+    </div>
+    <div class="tabla" id="TABLA">
+        <div class="ANO">
+            <div class="Ano">PRIMER AÑO</div>
+                <div class="semestres">
+                    <div class="s1">
+                        <div class="Stitulo">semestre 1</div>
+                        <button class="Mbtt" onclick="cal1()"><div id="MAT111" class="materia">CALCULO I</div></button>
+                        <button class="Mbtt" onclick="algL()"><div id="MAT112" class="materia">ALGEBRA LINEAL</div></button>
+                        <button class="Mbtt" onclick="prg1()"><div id="INF111" class="materia">PROGRAMACION I</div></button>
+                        <button class="Mbtt" onclick="fund()"><div id="INF112" class="materia">FUND. DE LA INFORMATICA</div></button>
+                        <button class="Mbtt" onclick="ingl1()"><div id="LIN111" class="materia">INGLES I</div></button>
+                        <button class="Mbtt" onclick="scont()"><div id="AUD111" class="materia">SISTEMAS CONTABLES</div></button>
+                    </div>
+                    <div class="s2">
+                        <div class="Stitulo">semestre 2</div>
+                        <button class="Mbtt" onclick="cal2()"><div id="MAT121" class="materia">CALCULO II</div></button>
+                        <button class="Mbtt" onclick="fis1()"><div id="FIS111" class="materia">FISICA I</div></button>
+                        <button class="Mbtt" onclick="prg2()"><div id="INF121" class="materia">PROGRAMACION II</div></button>
+                        <button class="Mbtt" onclick="intrSist()"><div id="INF122" class="materia">INTROD. A LOS SISTEMAS OPERATIVOS</div></button>
+                        <button class="Mbtt" onclick="estDes()"><div id="MAT122" class="materia">ESTADISTICA DESCRIPTIVA</div></button>
+                        <button class="Mbtt" onclick="ingl2()"><div id="LIN121" class="materia">INGLES II</div></button>
+                    </div>
+                </div>
+        </div>
+        <div class="ANO">
+            <div class="Ano">SEGUNDO AÑO</div>
+                <div class="semestres">
+                    <div class="s1">
+                        <div class="Stitulo">semestre 3</div>
+                        <button class="Mbtt" onclick="cal3()"><div id="MAT211" class="materia">CALCULO III</div></button>
+                        <button class="Mbtt" onclick="fis2()"><div id="FIS211" class="materia">FISICA II</div></button>
+                        <button class="Mbtt" onclick="prg3()"><div id="INF211" class="materia">PROGRAMACION III</div></button>
+                        <button class="Mbtt" onclick="talf()"><div id="INF212" class="materia">TEORIA DE AUTOMATAS Y LENGUAJES FORMAL</div></button>
+                        <button class="Mbtt" onclick="teoProb()"><div id="MAT212" class="materia">TEORIA DE PROBABILIDADES</div></button>
+                        <button class="Mbtt" onclick="grafos()"><div id="MAT213" class="materia">COMBINATORIA Y TEORIA DE GRAFOS</div></button>
+                        <button class="Mbtt" onclick="lider()"><div id="ELT121" class="materia">LIDERAZGO EMPRESARIAL</div></button>
+                    </div>
+                    <div class="s2">
+                        <div class="Stitulo">semestre 4</div>
+                        <button class="Mbtt" onclick="cal4()"><div id="MAT221" class="materia">CALCULO IV</div></button>
+                        <button class="Mbtt" onclick="senales()"><div id="IEL221" class="materia">TEORIA DE LA COMUNICACION Y SEÑALES</div></button>
+                        <button class="Mbtt" onclick="analNum()"><div id="MAT222" class="materia">ANALISIS NUMERICO</div></button>
+                        <button class="Mbtt" onclick="admOrg()"><div id="ADM221" class="materia">ADMINISTRACION DE LAS ORGANIZACIONES</div></button>
+                        <button class="Mbtt" onclick="arquCom()"><div id="IEL222" class="materia">ARQUITECTURA DE COMPUTADORAS</div></button>
+                        <button class="Mbtt" onclick="prg4()"><div id="INF221" class="materia">PROGRAMACION IV</div></button>
+                        <button class="Mbtt" onclick="metoInves()"><div id="ELT122" class="materia">METODOLOGIA DE LA INVESTIGACION</div></button>
+                    </div>
+                </div>
+        </div>
+        <div class="ANO">
+            <div class="Ano">TERCER AÑO</div>
+                <div class="semestres">
+                    <div class="s1">
+                        <div class="Stitulo">semestre 5</div>
+                        <button class="Mbtt" onclick="baseD1()"><div id="INF311" class="materia">BASE DE DATOS I</div></button>
+                        <button class="Mbtt" onclick="analSist()"><div id="INF312" class="materia">ANALISIS DE SISTEMAS I</div></button>
+                        <button class="Mbtt" onclick="invstOpe()"><div id="MAT311" class="materia">INVESTIGACION OPERATIVA</div></button>
+                        <button class="Mbtt" onclick="redes1()"><div id="IEL311" class="materia">REDES I</div></button>
+                        <button class="Mbtt" onclick="ecoGene()"><div id="ECO311" class="materia">ECONOMIA GENERAL</div></button>
+                        <button class="Mbtt" onclick="taller1()"><div id="INF301" class="materia">TALLER I</div></button>
+                    </div>
+                    <div class="s2">
+                        <div class="Stitulo">semestre 6</div>
+                        <button class="Mbtt" onclick=""><div id="ECO321" class="materia">PREPARACION Y EVALUAC. DE PROYECTOS</div></button>
+                        <button class="Mbtt" onclick=""><div id="IEL321" class="materia">REDES II</div></button>
+                        <button class="Mbtt" onclick=""><div id="INF321" class="materia">BASE DE DATOS II</div></button>
+                        <button class="Mbtt" onclick=""><div id="INF322" class="materia">ANALISIS DE SISTEMAS II</div></button>
+                        <button class="Mbtt" onclick=""><div id="MAT322" class="materia">INVESTIGACION OPERATIVA II</div></button>
+                    </div>
+                </div>
+        </div>
+        <div class="ANO">
+            <div class="Ano">CUARTO AÑO</div>
+                <div class="semestres">
+                    <div class="s1">
+                        <div class="Stitulo">semestre 7</div>
+                        <button class="Mbtt" onclick=""><div id="IEL411" class="materia">REDES III</div></button>
+                        <button class="Mbtt" onclick=""><div id="INF411" class="materia">BASES DE DATOS III</div></button>
+                        <button class="Mbtt" onclick=""><div id="INF412" class="materia">INGENIERIA DE SOFTWARE I</div></button>
+                        <button class="Mbtt" onclick=""><div id="INF413" class="materia">TECNOLOGIA MULTIMEDIA</div></button>
+                        <button class="Mbtt" onclick=""><div id="INF401" class="materia">TALLER II</div></button>
+                        <button class="Mbtt" onclick=""><div id="INF414" class="materia">OPTATIVA I</div></button>
+                    </div>
+                    <div class="s2">
+                        <div class="Stitulo">semestre 8</div>
+                        <button class="Mbtt" onclick=""><div id="INF421" class="materia">INTELIGENCIA ARTIFICIAL</div></button>
+                        <button class="Mbtt" onclick=""><div id="INF422" class="materia">INGENIERIA DE SOFTWARE II</div></button>
+                        <button class="Mbtt" onclick=""><div id="INF423" class="materia">TECNOLOGIA DE PROGRAMACION EN RED</div></button>
+                        <button class="Mbtt" onclick=""><div id="IEL421" class="materia">LABORATORIO DE SEGURIDAD EN REDES</div></button>
+                        <button class="Mbtt" onclick=""><div id="INF424" class="materia">OPTATIVA II</div></button>
+                    </div>
+                </div>
+        </div>
+        <div class="ANO">
+            <div class="Ano">QUINTO AÑO</div>
+                <div class="semestres">
+                    <div class="s1">
+                        <div class="Stitulo">semestre 9</div>
+                        <button class="Mbtt" onclick=""><div id="INF511" class="materia">ROBOTICA</div></button>
+                        <button class="Mbtt" onclick=""><div id="IEL511" class="materia">TRANSMISION DE VOZ Y VIDEO</div></button>
+                        <button class="Mbtt" onclick=""><div id="DER511" class="materia">LEGISLACION</div></button>
+                        <button class="Mbtt" onclick=""><div id="INF501" class="materia">TALLER III</div></button>
+                        <button class="Mbtt" onclick=""><div id="OPT003" class="materia">OPTATIVA III</div></button>
+                    </div>
+                    <div class="s2">
+                        <div class="Stitulo">semestre 10</div>
+                        <button class="Mbtt" onclick=""><div id="INF521" class="materia">AUDITORIA INFORMATICA</div></button>
+                        <button class="Mbtt" onclick=""><div id="OPT004" class="materia">OPTATIVA IV</div></button>
+                    </div>
+                </div>
+        </div>
+        
+    </div>
+    <footer>
+        <nav>
+            <p>
+                © 2007-2017 Universidad Autónoma Juan Misael Saracho <br>
+                Tarija - Bolivia</p>
+        </nav>
+    </footer>
+        <script src="js/Materias.js"></script>
+</body>
+</html>

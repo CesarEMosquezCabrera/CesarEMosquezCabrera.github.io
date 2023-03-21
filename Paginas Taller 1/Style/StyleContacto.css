@@ -1,0 +1,68 @@
+.contenido .ContenidoRequisitos .ListaRequisitos .PyR .punto{
+    width: 20px;
+    height: 20px;
+    background: #f00;
+    border-radius: 50%;
+    margin: 25px 0px;
+}
+.contenido .ContenidoRequisitos .titulo{
+    display: flex;
+    font-size: 35px;
+    margin: 15px 0px;
+    justify-content: center;
+}
+.Requisito{
+    margin-left: 15px;
+    font-size: 35px;
+}
+.PyR{
+    display: flex;
+    align-items: center;
+}
+.ListaRequisitos{
+    margin-left: 50px;
+}
+
+/* contactos */
+.ContenidoContacto{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(16, 194, 194, 0.63);
+    padding-top: 30px;
+}
+.ContenidoContacto .linea{
+    height: 200px;
+    width: 5px;
+    background-color: red;
+    margin: auto 80px;
+}
+.ContenidoContacto .titulo{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: oblique;
+}
+.ContenidoContacto .tituloCont{
+    margin-bottom: 10px;
+}
+.ContenidoContacto .tituloRedes{
+    margin-bottom: 10px;
+}
+.cc{
+    margin: 5px 0px;
+}
+.cc h4{
+    margin-bottom: 3px;
+}
+
+.lasredes .redesflex a div{
+    width: 45px;
+    height: 45px;
+    background: red;
+    border-radius: 50%;
+}
+.lasredes .redesflex a{
+    margin-right: 25px;
+}
+.lasredes .redesflex{
+    display: flex;
+}

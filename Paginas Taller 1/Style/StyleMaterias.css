@@ -1,0 +1,72 @@
+.tabla{
+    display: flex;
+    justify-content: center;
+}
+.tabla div{
+    margin: 5px;
+}
+.tabla .ANO:hover{
+    background: rgba(246, 255, 122, 0.199);
+}
+.semestres{
+    display: flex;
+}
+.materia{
+    padding: 10px;
+    border: 1px solid black;
+    width: 95px;
+    font-size: 13px;
+}
+/* .materia:hover{
+    background: rgb(236, 131, 70);
+} */
+.Ano{
+    text-align: center;
+}
+.semestres div{
+    margin: 2px;
+}
+button{
+    all: unset;
+    cursor: pointer;
+    word-wrap: break-word;
+}
+.Mbtt:hover{
+    background: rgb(147, 172, 6);
+}
+.semestres .s1 .Stitulo{
+    text-align: center;
+}
+.semestres .s2 .Stitulo{
+    text-align: center;
+}
+.tabla .ANO .Ano{
+    background: rgb(238, 234, 29);
+    padding: 5px 0px;
+}
+
+
+.tituloMaterias{
+    text-align: center;
+}
+
+/* botones de materias */
+.botonesMaterias{
+    display: flex;
+    justify-content: center;
+}
+.botonesMaterias button div, .botonesMaterias .divButton div{
+    padding: 7px;
+}
+.botonesMaterias button, .botonesMaterias .divButton div{
+    margin: 5px 15px;
+}
+.botonesMaterias button .troncales{
+    background:#AEEBFF;
+}
+.botonesMaterias .divButton .requisitos{
+    background:#FFA36A;
+}
+.botonesMaterias button .noTroncales{
+    background:#1bf037;
+}

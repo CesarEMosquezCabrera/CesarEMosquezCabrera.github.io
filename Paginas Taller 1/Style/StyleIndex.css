@@ -1,0 +1,85 @@
+body{
+    background-color: rgba(12, 240, 248, 0.808);
+}
+div p{
+    text-align: justify;
+    margin: 0px 5px;
+}
+.ImagenInicial{
+    height: 520px;
+    width: 100%;
+    background-color: #0f0;
+}
+.ImagenInicial img{
+    /* display: block; */
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    /* margin: auto; */
+}
+.ImagenInicial h2{
+    position: absolute;
+    font-size: 75px;
+    margin-left: 30px;
+    width: 1300px;
+    bottom: 70px;
+    color: #fff;
+}
+.contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* todo contenido de vision mision y campo */
+.contenido .caja{
+    width: 98%;
+    background: red;
+    margin-top: 30px;
+    padding: 20px 5px;
+}
+.contenido .caja ul{
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.contenido div h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+/* css para los videos */
+.Elvideo{
+    background: rgb(255, 123, 0);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.Elvideo .video video{
+    height: 350px;
+    padding: 25px;
+}
+.Elvideo .visionEnlaces{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    margin-left: 40px;
+    
+}
+.Elvideo .visionEnlaces div{
+    background: #f0f;
+    padding: 20px;
+}
+
+.Elvideo .visionEnlaces div:hover{
+    background: rgb(240, 90, 240);
+}
+
+.Elvideo .visionEnlaces a{
+    text-decoration: none;
+    color: #000;
+    margin: 10px;
+}
+.Elvideo .visionEnlaces a div{
+    font-size: 35px;
+}
